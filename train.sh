@@ -1,0 +1,1 @@
+python train.py -n 2 -f 0

@@ -1,0 +1,54 @@
+# Variables that is changed every time
+LOAD_MODEL_EPOCH: 0
+DATA_LOADER_SEED: 1
+N_EPOCHS: 100
+
+# Semi Regular Variables
+DEBUG: false
+TOTAL_EPOCHS: 101   # +1している
+WARMUP_EPOCHS: 10
+IMAGE_SIZE: 256
+MODEL_IMG_SAVE_EPOCH: 10
+
+# Regular Variables
+BATCH_SIZE: 16
+N_SPLIT: 10
+D_MAX_LR: 0.001
+D_MIN_LR: 0.00001
+G_MAX_LR: 0.002
+G_MIN_LR: 0.00001
+LAMBDA_CYCLE: 10
+SEED: 1
+ROOT_DIR: '.'
+
+# Data Path
+DOMAIN_A_DIR: data/02_Water
+DOMAIN_B_DIR: data/01_Fire
+
+# EDA
+PLOT_COLOR_PATHES:
+    - 01_Fire
+    - 02_Water
+    - 03_Electric
+    - 04_Grass
+    - 05_Ice
+    - 06_Psychic
+    - 07_Fighting
+    - 08_Poison
+    - 09_Ground
+    - 10_Flying
+    - 11_Bug
+    - 12_Rock
+    - 13_Ghost
+    - 14_Dragon
+    - 15_Dark
+    - 16_Steel
+    - 17_Fairy
+
+PLOT_HIST_PATHES:
+    - 04_Grass/b_3.png
+    - 01_Fire/b_6.png
+    - 02_Water/b_9.png
+    - 04_Grass/b_497.png
+    - 01_Fire/b_257.png
+    - 02_Water/b_658.png
